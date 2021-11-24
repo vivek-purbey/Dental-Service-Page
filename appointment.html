@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Appointment Page</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <style>
+      .bg{
+    background-color: gainsboro;
+    width: 100%;
+    height: 185vh;
+}
+.form-container{
+    border: 2px solid green;
+    padding: 20px 20px;
+    margin-top: 3vh;
+    -webkit-box-shadow: 1px 2px 20px 5px rgba(0,0,0,0.35);
+-moz-box-shadow: 1px 2px 20px 5px rgba(0,0,0,0.35);
+box-shadow: 1px 2px 20px 5px rgba(0,0,0,0.35);
+}
+    </style>
+  </head>
+  <body>
+      <div class="container-fluid bg">
+          <div class="row">
+              <div class="col-md-4 col-sm-4 col-xs-12"></div>
+              <div class="col-md-4 col-sm-4 col-xs-12">
+                <form class="form-container">
+                    <h1>Book Your Appointment</h1>
+                        <div class="mb-3">
+                          <label for="name" class="form-label">Name:</label>
+                          <input type="text" placeholder="Enter Your Name..." required class="form-control" id="exampleInputName" 
+                          style="border-radius: 10px;">
+                        </div>
+                        <div class="mb-3">
+                          <label for="email" class="form-label">Email:</label>
+                          <input type="email" placeholder="Enter Your Email..." required class="form-control" id="exampleInputemail" 
+                          style="border-radius: 10px;">
+                        </div>
+                        <div class="mb-3">
+                          <label for="contact" class="form-label">Contact Number:</label>
+                          <input type="contact" placeholder="Enter Your Number..." required class="form-control" id="exampleInputContact" 
+                          style="border-radius: 10px;">
+                        </div>
+                        <div class="mb-3">
+                          <label for="Appointment Date" class="form-label">Appointment Date:</label>
+                          <input type="date" required class="form-control" id="exampleInputDate" 
+                          style="border-radius: 10px;">
+                        </div>
+                        <div class="mb-3">
+                          <label for="address" class="form-label"><h6>Address Details:</h6></label>
+                          <center><input type="address" placeholder="Enter Your Area..." required class="form-control" id="exampleInputAddress" 
+                          style="border-radius: 10px; width: 95%;"></center><br>
+                          <center><input type="address" placeholder="Enter Your City..." required class="form-control" id="exampleInputAddress" 
+                          style="border-radius: 10px; width: 90%;"></center><br>
+                          <center><input type="address" placeholder="Enter Your State..." required class="form-control" id="exampleInputAddress" 
+                          style="border-radius: 10px; width: 85%;"></center><br>
+                          <center><input type="address" placeholder="Enter Your Postal Code..." required class="form-control" id="exampleInputAddress" 
+                          style="border-radius: 10px; width: 80%;"></center>
+                        </div>
+                        <div class="form-group">
+                          <label for="Textarea">Message:</label>
+                          <textarea class="form-control" name="textarea" id="exampleInputTextarea" rows="3" placeholder="Your message here..." style="border-radius: 10px;"></textarea>
+                      </div>
+                      <a href="appointment-success.html" class="btn btn-dark btn-block" style="border-radius: 10px; line-height: 50px;" 
+                      tabindex="-1" role="button" aria-disabled="true">Book Appointment</a>
+                    
+                  </form>
+              </div>
+          </div>
+      </div>
+  </body>
+</html>
